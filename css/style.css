@@ -1,0 +1,45 @@
+body {
+  padding: 30px;
+}
+
+.containerSearsh {
+  display: flex;
+}
+
+#searshInput {
+  margin-right: 10px;
+}
+
+.tabUsers {
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.tabEstatistics {
+  padding: 10px;
+  margin-top: 50px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.containerTabs {
+  display: flex;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.person {
+  display: flex;
+  margin-bottom: 15px;
+}

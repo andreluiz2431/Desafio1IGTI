@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Desafio 1</title>
+  </head>
+  <body>
+    <div class="containerHeader">
+      <h1 class="title center">Pesquisa de usuários</h1>
+      <div class="containerSearsh">
+        <input
+          type="text"
+          name="searshInput"
+          id="searshInput"
+          placeholder="Busca"
+        />
+        <input type="button" class="btn" id="buttonSearsh" value="Buscar" />
+      </div>
+    </div>
+
+    <div class="containerTabs">
+      <div class="tabUsers">
+        <h3 class="titleUsers">
+          <span id="countUsers">Nenhum usuário filtrado</span>
+        </h3>
+        <div id="tabUsers"></div>
+      </div>
+
+      <div class="tabEstatistics">
+        <h3 class="titleEstatistics">
+          <span id="countEstatistics">Nada a ser exibido</span>
+        </h3>
+        <div id="tabEstatistics">
+          <ul>
+            <li>
+              <span id="countMale"></span>
+            </li>
+            <li><span id="countFemale"></span></li>
+            <li><span id="totalAges"></span></li>
+            <li><span id="mediaAges"></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
